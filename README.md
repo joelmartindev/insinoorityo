@@ -2,11 +2,11 @@
 Opinnäytetyöni päiväkirja ja materiaali
 Aihe: GPT3 tai GPT4 mallin hyödyntäminen nollakäyttöliittymäsovelluksessa (lopullinen sovellus auki)
 
-21.3 ensimmäinen palaveri
+## 21.3 ensimmäinen palaveri
 
 Huomioita:
 - Nyt tarkoitus pohtia ja kokeilla erilaisia sovelluksia kielimallien hyödyntämiselle
-- Esimerkki: Puhuja pyytää puhumalla sovellusta lisäämään kalenteriin merkinnän ja kielimalli kasaa sopivan tapahtuman lisättäväksi
+- Esimerkki: Käyttäjä pyytää puhumalla sovellusta lisäämään kalenteriin merkinnän ja kielimalli kasaa sopivan tapahtuman lisättäväksi
 - Blogeja voi käyttää lähteinä, esim medium.com
 - Mermaidilla voi piirtää kaavioita
 - Jupyter Notebook mahdollinen apuväline (tai google colab)
@@ -22,7 +22,7 @@ Linkkejä:
 - Mermaid https://mermaid.js.org/config/Tutorials.html
 
 
-23.3: 
+## 23.3: 
 
 Mietteitä:
 - Pitäiskö kirjoittaa yleiskäyttöisyyden näkökulmastä riippuen siitä kuinka paljon erilaisia sovelluksia saa toimimaan?
@@ -47,7 +47,7 @@ Linkkejä:
 - LlamaIndex ja pidemmät ohjeet https://gpt-index.readthedocs.io/en/latest/guides/building_a_chatbot.html
 
 
-24.4:
+## 24.3:
 
 Mietteitä:
 - GPT-4 ja pluginit esim nettiselaukseen ovat odotuslistojen takana. Molemmista saisi hyvää vertailua työhön
@@ -67,3 +67,12 @@ Linkkejä:
 - Custom LLM https://gpt-index.readthedocs.io/en/latest/how_to/custom_llms.html#example-using-a-custom-llm-model
 - OpenAI.py LLM koodi https://github.com/hwchase17/langchain/blob/master/langchain/llms/openai.py
     - Tiedostosta näkyy että OpenAI-luokalla pystyy käyttämään davinci yms malleja ja OpenAIChat-luokalla GPT-malleja
+
+## 26.3
+
+Mietteitä:
+- Taidan ensin tosiaan testata kirjastoa omilla avaimilla, sillä toisellakaan yrittämällä en löytänyt mistä muuttaa endpointia
+
+Linkkejä:
+- Use cases guide https://gpt-index.readthedocs.io/en/latest/guides/use_cases.html
+- Guardrails ohjaa outputin muotoa https://github.com/ShreyaR/guardrails
