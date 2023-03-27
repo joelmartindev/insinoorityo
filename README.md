@@ -86,3 +86,4 @@ Mietteitä:
 Linkkejä:
 - Learn prompting https://learnprompting.org/docs/basics/intro
 - GPT-4 chat ilmaiseksi testaamiseen https://huggingface.co/spaces/ysharma/ChatGPT4
+- Toinen GPT-4 chat joka toimii https://ora.sh/openai/gpt4
