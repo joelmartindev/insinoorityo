@@ -76,3 +76,13 @@ Mietteitä:
 Linkkejä:
 - Use cases guide https://gpt-index.readthedocs.io/en/latest/guides/use_cases.html
 - Guardrails ohjaa outputin muotoa https://github.com/ShreyaR/guardrails
+
+## 27.3
+
+Mietteitä:
+- Ilmainen api loppui rahoituksen puutteen takia ja huomasin että uusien tilien luomiseen tarvitaan puhelinnumero, joten en voi hyödyntää uusia tilejäkään API-avaimien hankkimiseen
+    - ainoa vaihtoehto on edetä hyvin pienillä datamäärillä ja katsoa paljonko menee tokeneita per kutsu
+
+Linkkejä:
+- Learn prompting https://learnprompting.org/docs/basics/intro
+- GPT-4 chat ilmaiseksi testaamiseen https://huggingface.co/spaces/ysharma/ChatGPT4
