@@ -80,8 +80,8 @@ Linkkejä:
 ## 27.3
 
 Mietteitä:
-- Ilmainen api loppui rahoituksen puutteen takia ja huomasin että uusien tilien luomiseen tarvitaan puhelinnumero, joten en voi hyödyntää uusia tilejäkään API-avaimien hankkimiseen
-    - ainoa vaihtoehto on edetä hyvin pienillä datamäärillä ja katsoa paljonko menee tokeneita per kutsu
+- Ilmainen proxy api loppui rahoituksen puutteen takia ja huomasin että uusien tilien luomiseen tarvitaan puhelinnumero, joten en voi hyödyntää uusia tilejäkään API-avaimien hankkimiseen
+    - ainoa vaihtoehto on edetä virallisen API:n kanssa hyvin pienillä datamäärillä ja katsoa paljonko menee tokeneita per kutsu
 
 Linkkejä:
 - Learn prompting https://learnprompting.org/docs/basics/intro
