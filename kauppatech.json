@@ -1,0 +1,54 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "category": "Puhelimet",
+        "availability": 15,
+        "rating": 3.2,
+        "price": 1150,
+        "name": "Apple iPhone 14 Pro 128 Gt -puhelin, tummavioletti (MQ0G3)",
+        "brand": "Apple",
+        "description": "Apple iPhone 14 Pro. 48 Mpix pääkamera ikuistaa yksityiskohdat uskomattoman tarkasti. Dynamic Island ja aina päällä oleva näyttö tarjoavat täysin uudenlaisen iPhonen käyttökokemuksen. Kolarintunnistus on uusi turvaominaisuus, joka soittaa apua, kun et itse voi.\n\n6,1 tuuman Super Retina XDR näyttö, jossa aina päällä oleva näyttö ja ProMotion\nDynamic Island, mahtava uusi tapa saada enemmän irti iPhonestasi\n48 Mpix pääkameralla jopa 4x suurempi tarkkuus\nElokuvallinen tila tukee nyt jopa 30 fps 4K Dolby Vision kuvausta\nToimintatilan avulla kuvaat vakaata videota käsivaralla\nElintärkeää turvateknologiaa – kolarintunnistus soittaa apua, kun et itse voi\nKoko päivän kestävä akku ja jopa 23 tuntia videon toistoa\nA16 Bionic. Edistyksellisin älypuhelimen siru. Supernopea 5G-mobiilidata\nAlan parhaat kestävyysominaisuudet Ceramic Shieldin ja vesitiiviyden ansiosta\niOS 16:lla personointi, viestintä ja jakaminen onnistuvat yhä useammilla tavoilla\nTuotepakkauksessa mukana:\n\niPhone 14 Pro -puhelin\nUSB-C-Lightning-kaapeli\nSIM-työkalu"
+      },
+      {
+        "id": 2,
+        "category": "Puhelimet",
+        "availability": 6,
+        "rating": 4.2,
+        "price": 1200,
+        "name": "Apple iPhone 14 Pro 128 Gt -puhelin, hopea (MQ023)",
+        "brand": "Apple",
+        "description": "Apple iPhone 14 Pro. 48 Mpix pääkamera ikuistaa yksityiskohdat uskomattoman tarkasti. Dynamic Island ja aina päällä oleva näyttö tarjoavat täysin uudenlaisen iPhonen käyttökokemuksen. Kolarintunnistus on uusi turvaominaisuus, joka soittaa apua, kun et itse voi.\n\n6,1 tuuman Super Retina XDR näyttö, jossa aina päällä oleva näyttö ja ProMotion\nDynamic Island, mahtava uusi tapa saada enemmän irti iPhonestasi\n48 Mpix pääkameralla jopa 4x suurempi tarkkuus\nElokuvallinen tila tukee nyt jopa 30 fps 4K Dolby Vision kuvausta\nToimintatilan avulla kuvaat vakaata videota käsivaralla\nElintärkeää turvateknologiaa – kolarintunnistus soittaa apua, kun et itse voi\nKoko päivän kestävä akku ja jopa 23 tuntia videon toistoa\nA16 Bionic. Edistyksellisin älypuhelimen siru. Supernopea 5G-mobiilidata\nAlan parhaat kestävyysominaisuudet Ceramic Shieldin ja vesitiiviyden ansiosta\niOS 16:lla personointi, viestintä ja jakaminen onnistuvat yhä useammilla tavoilla\nTuotepakkauksessa mukana:\n\niPhone 14 Pro -puhelin\nUSB-C-Lightning-kaapeli\nSIM-työkalu\nRajoitettu saatavuus. Myynti on rajoitettu korkeintaan yhteen (1 kpl) iPhone 14 Pro per asiakas. Limited supply. A maximum of one (1 pcs) iPhone 14 Pro can be purchased per customer."
+      },
+      {
+        "id": 3,
+        "category": "Puhelimet",
+        "availability": 9,
+        "rating": 4.4,
+        "price": 1600,
+        "name": "Samsung Galaxy S23 Ultra 5G -puhelin, 512/12 Gt, laventeli",
+        "brand": "Samsung",
+        "description": "Tekniset tiedot: Näyttö: 6,8 Quad HD+ Dynamic Amoled 2X (3088 x 1440), 1–120 Hz, 1750 nits Suoritin: Snapdragon 8 Gen 2 Pro Mitat: 78,1 x 163,4 x 8,9 mm | 233 g Takakamera: 200 MP Wide (f/1.7, OIS) + 10 MP Tele1, 10x optinen zoom (f/4.9 OIS, 100x Space zoom) + 10 MP Tele2, 3x optinen zoom (f/2.4 OIS) + 12 MP Ultra Wide (f/2.2 AF) + Laserautomaattitarkennus Etukamera: 12 MP 2PD (f/2.2 AF) Videotallennus: UHD 8K @ 30 FPS | UHD 4K @ 60 FPS, Slow motion FHD @ 960/240 FPS Videotoisto: UHD 8K (7680 x 4320) @ 60 FPS Muisti / tallennustila: 12 Gt / 512 Gt Yhteydet: 5G, Wi-Fi 802.11 a/b/g/n/ac/ax 2.4G + 5GHz + 6GHz Liitännät: BT 5.3, USB 3.2 Gen (USB-C) Akku: 5000 mAh, pikalataus (45W), langaton pikalataus (15W), langaton virranjako Väri: Lavender Muuta: One UI 5.1 / Android 13 / Sormenjälkitunnistin näytössä (Ultraääni) / Samsung Pay / Dual SIM + e-SIM / Samsung Knox / Sound by AKG / Dolby Atmos / IP68 Pakkauksen sisältö: Galaxy S23 Ultra 5G -puhelin, S Pen, USB Type-C-kaapeli, SIM-kortin poistotyökalu, Pikaopas"
+      },
+      {
+        "id": 4,
+        "category": "Puhelimet",
+        "availability": 20,
+        "rating": 4.2,
+        "price": 299,
+        "name": "Samsung Galaxy A53 5G -puhelin, 128/6 Gt, valkoinen",
+        "brand": "Samsung",
+        "description": "Tekniset tiedot: Prosessori: kahdeksanytiminen Exynos 1280 (Papaya 2x CA78 2,4 GHz, 6x CA55 2,0 GHz) Näyttö: 6,5 FHD+ (1080x2400) Super AMOLED Infinity-O (120 Hz), Gorilla Glass 5 Kamera: 64 MP (f/1.8) (pääkamera) + 12 MP (f/2.2) (ultralaajakulma) + 5 MP (f/2.4) (makro) + 5 MP (f/2.4) (syvyyskamera), Selfiekamera: 32 MP (f/2.2), Muisti: 128 Gt tallennustila, 6 Gt RAM, microSD-muistikorttipaikka jopa 1 Tt Yhteydet: USB C-type (2.0), BT 5.0, 802.11 a/b/g/n/ac 2.4 GHz + 5 GHz Paikannus: GPS IP67 pölyn- ja vedenkestävä Muuta: Dual-SIM, sormenjälkitunnistin näytössä, stereokaiuttimet Akku: sisäänrakennettu 5000 mAh, tukee 25 W pikalatausta Mitat: 159,9 x 74,7 x 8,1 mm Myyntipakkauksessa: Samsung Galaxy A53 5G -puhelin, USB-C - USB-C -kaapeli, SIM-kortin poistotyökalu, Pikaopas"
+      },
+      {
+        "id": 5,
+        "category": "Puhelimet",
+        "availability": 17,
+        "rating": 4.1,
+        "price": 299,
+        "name": "Samsung Galaxy A53 5G -puhelin, 128/6 Gt, valkoinen",
+        "brand": "Samsung",
+        "description": "Tekniset tiedot: Prosessori: MediaTek Dimensity 1300 Grafiikkaprosessori: ARM Mali G77 MC9 Käyttöjärjestelmä: Oxygen OS 12.1, perustuu Android 12 -käyttöjärjestelmään Näyttö: 6,43 FHD+, Fluid AMOLED, HDR 10+, 1080 x 2400 resoluutio, 20:9, 409 ppi, 90 Hz Kamera: 50 MP pääkamera (ƒ/1.8, 1.0 µm, PDAF, OIS, CAF) + 8 MP ultralaajakulmakamera (ƒ/2.2, 120° FOV) + 2 MP mustavalkolinssi (ƒ/2.2), kaksois LED-salama, digitaalinen zoom 0,6-10x, yökuvaus, muotokuva, panoraama Selfiekamera: 32 MP (ƒ/2.4, 0.8 µm), video 1080p@30fps Video: 4K 2160p@30fps, 1080p@30/60/120/480fps, 720p@240/960fps Muisti: 128 Gt tallennustila (UFS 3.1), 8 Gt LPDDR4X RAM-muisti Yhteydet: GPRS, EDGE, 3G, LTE, 5G, 2x2 MIMO WiFi 802.11 a/b/g/n/ac/ax, Dual-Band Paikannus: GPS / GLONASS / Galileo / Beidou / QZSS Bluetooth 5.2, USB Type-C 2.0, NFC, VoLTE Muuta: Dual-SIM, sormenjälkilukija näytössä Akku: 4500 mAh, sisäänrakennettu Li-Po, tukee 80 W SUPERVOOC -pikalatausta Mitat: 159,1 x 73,25 x 8,35 mm, paino: 190 g Tuotepakkauksessa mukana: OnePlus Nord 2T 5G -puhelin, 80 W SUPERVOOC -pikalaturi, USB-C – USB-A -kaapeli, Suojakuori, Näytönsuoja (esiasennettu), Pikaopas, Kiitoskirje, SIM-työkalu, Turvallisuus- ja takuutiedot"
+      }
+    ]
+  }

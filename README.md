@@ -90,6 +90,9 @@ Linkkejä:
 ## 28.3
 Mietteitä:
 - Toisia malleja voisi myös tutkia, coheren mallit vaikuttavat tutkimisen arvoiselta ja API on ilmeisesti ilmainen
+- Teen nyt json-tiedoston johon lisään muutamia tuotteita, kuten vaikkapa puhelinmalleja
+    - valmis ja myös hieman lyhennetty versio pelkillä teknisillä tiedoilla
 
 Linkkejä:
 - Cohere https://dashboard.cohere.ai/
+- Open Source speech-to-text lista https://fosspost.org/open-source-speech-recognition/
