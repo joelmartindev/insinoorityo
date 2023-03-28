@@ -86,3 +86,10 @@ Mietteitä:
 Linkkejä:
 - Learn prompting https://learnprompting.org/docs/basics/intro
 - GPT-4 chat ilmaiseksi testaamiseen https://huggingface.co/spaces/ysharma/ChatGPT4
+
+## 28.3
+Mietteitä:
+- Toisia malleja voisi myös tutkia, coheren mallit vaikuttavat tutkimisen arvoiselta ja API on ilmeisesti ilmainen
+
+Linkkejä:
+- Cohere https://dashboard.cohere.ai/
