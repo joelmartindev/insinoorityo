@@ -25,7 +25,7 @@ Linkkejä:
 ## 23.3: 
 
 Mietteitä:
-- Pitäiskö kirjoittaa yleiskäyttöisyyden näkökulmastä riippuen siitä kuinka paljon erilaisia sovelluksia saa toimimaan?
+- Pitäisikö kirjoittaa yleiskäyttöisyyden näkökulmastä riippuen siitä kuinka paljon erilaisia sovelluksia saa toimimaan?
 - Minkälaisella prosessilla saadaan ohjattua chatbotti toimimaan vain tietyssä kontekstissa?
 - API-kutsut maksavat, joten miten saa turvattua väärinkäytöltä ja turhilta kutsuilta?
 
@@ -96,3 +96,12 @@ Mietteitä:
 Linkkejä:
 - Cohere https://dashboard.cohere.ai/
 - Open Source speech-to-text lista https://fosspost.org/open-source-speech-recognition/
+
+## 31.3
+Mietteitä:
+- LLaMan ja siitä tuunatun Alpacan toimintaa voisi testata GPT-3 jälkeen
+- Käyty läpi opettajan linkkaamaa esimerkkiä
+
+Linkkejä:
+- Opettajan linkki, puheohjaus ja chatbot guide https://levelup.gitconnected.com/i-created-a-voice-chatbot-powered-by-chatgpt-api-here-is-how-6302d555b949
+- LLaMa/Alpaca ero testausta https://www.reddit.com/r/LocalLLaMA/comments/123ktm7/comparing_llama_and_alpaca_models/
