@@ -1,6 +1,7 @@
 # insinöörityö
 Opinnäytetyöni päiväkirja ja materiaali
-Aihe: GPT3 tai GPT4 mallin hyödyntäminen nollakäyttöliittymäsovelluksessa (lopullinen sovellus auki)
+
+Aihe: Kielimallien kuten GPT-3 hyödyntäminen nollakäyttöliittymäsovelluksessa (lopullinen sovellus auki)
 
 ## 21.3 ensimmäinen palaveri
 
@@ -104,4 +105,21 @@ Mietteitä:
 
 Linkkejä:
 - Opettajan linkki, puheohjaus ja chatbot guide https://levelup.gitconnected.com/i-created-a-voice-chatbot-powered-by-chatgpt-api-here-is-how-6302d555b949
-- LLaMa/Alpaca ero testausta https://www.reddit.com/r/LocalLLaMA/comments/123ktm7/comparing_llama_and_alpaca_models/
+- LLaMa/Alpaca erojen testausta https://www.reddit.com/r/LocalLLaMA/comments/123ktm7/comparing_llama_and_alpaca_models/
+
+## 1.4
+Mietteitä:
+- En saa opettajan esimerkkiä toimimaan, luultavasti versio-ongelma konsolin perusteella
+    - Pistin kommentin kirjoittajalle jos asia sitten selviäisi
+- Löysin artikkelin jonka ohjeet luultavasti toimivat mutta ilman nettisivua
+    - Tärkeää on Microphone speech into text -osio
+- Seuraavaksi tutkin saanko esimerkin toimimaan ja olisiko jokin hyvä tapa saada sille simppeli nettisivu vai voisiko tämän integroida toiseen esimerkkiin ja leikata sen JS osa pois
+
+- Kokeilin taas opettajan esimerkkiä ja testasin olisiko artikkelin tekijä tehnyt virheen aikaisemmassa osassa artikkelia
+    - Tosiaan artikkelin keskellä oleva esimerkki ei toiminut ollenkaan, mutta kun otin artikkelin lopun koodista tarvitsemani pätkän sain koodin toimimaan
+    - Eli nyt kun painaa nappia ja puhuu, tulostuu tekstiä hetkeksi näytölle
+- Seuraava askel on siis lähteä testailemaan datan lähetystä jollakin mallilla
+
+Linkkejä:
+- Italia kielsi ChatGPT nojaten yksityisyyden suojaan https://www.iltalehti.fi/ulkomaat/a/dffe5381-9606-42fe-b680-1917baa3e785
+- Pythonissa puhe tekstiksi https://towardsdatascience.com/easy-speech-to-text-with-python-3df0d973b426
