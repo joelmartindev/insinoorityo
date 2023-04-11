@@ -1,4 +1,4 @@
-# insinöörityö
+# Insinöörityö
 Opinnäytetyöni päiväkirja ja materiaali
 
 Aihe: Kielimallien kuten GPT-3 hyödyntäminen nollakäyttöliittymäsovelluksessa (lopullinen sovellus auki)
@@ -115,11 +115,19 @@ Mietteitä:
     - Tärkeää on Microphone speech into text -osio
 - Seuraavaksi tutkin saanko esimerkin toimimaan ja olisiko jokin hyvä tapa saada sille simppeli nettisivu vai voisiko tämän integroida toiseen esimerkkiin ja leikata sen JS osa pois
 
-- Kokeilin taas opettajan esimerkkiä ja testasin olisiko artikkelin tekijä tehnyt virheen aikaisemmassa osassa artikkelia
+- Kokeilin taas esimerkkiä ja testasin olisiko tekijä tehnyt virheen aikaisemmassa osassa artikkelia
     - Tosiaan artikkelin keskellä oleva esimerkki ei toiminut ollenkaan, mutta kun otin artikkelin lopun koodista tarvitsemani pätkän sain koodin toimimaan
     - Eli nyt kun painaa nappia ja puhuu, tulostuu tekstiä hetkeksi näytölle
 - Seuraava askel on siis lähteä testailemaan datan lähetystä jollakin mallilla
 
 Linkkejä:
-- Italia kielsi ChatGPT nojaten yksityisyyden suojaan https://www.iltalehti.fi/ulkomaat/a/dffe5381-9606-42fe-b680-1917baa3e785
+- Italia kielsi ChatGPT:n nojaten yksityisyyden suojaan https://www.iltalehti.fi/ulkomaat/a/dffe5381-9606-42fe-b680-1917baa3e785
 - Pythonissa puhe tekstiksi https://towardsdatascience.com/easy-speech-to-text-with-python-3df0d973b426
+
+## 11.4
+Mietteitä:
+- Lisään koodin joka toimi ja huomenna jatkan tämän tekemistä nyt kun sain tehtyä FSO-kurssia 
+- Raportissa voisi puhua kielimallien vaaroista ja etiikasta. Linkissä kerrotaan harrastelijan tekemästä kielimallia hyödyntävästä viruksesta.
+
+Linkkejä:
+- Mikko Hyppönen - ensimmäinen gpt virus löydetty https://www.helpnetsecurity.com/2023/04/03/machine-learning-malware/
