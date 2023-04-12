@@ -131,3 +131,31 @@ Mietteitä:
 
 Linkkejä:
 - Mikko Hyppönen - ensimmäinen gpt virus löydetty https://www.helpnetsecurity.com/2023/04/03/machine-learning-malware/
+
+## 12.4
+Mietteitä:
+- Lähden siis testaamaan itse datan lähetystä
+    - Testitiedoston nimi vaikutti virallisen koodin toimivuuteen, muutetaan muuksi
+    - Virallisen apin testausta tavallisesti
+    ```
+    Lähetetyt promptit:  
+
+    {"role": "system", "content": "You are a webshop assistant."},
+    {"role": "user", "content": "Hello"}
+
+    Vastauksena palasi:
+    Hello! How can I assist you with your webshop needs today?
+
+    Tokenien käyttö
+    "completion_tokens": 14,
+    "prompt_tokens": 21,
+    "total_tokens": 35
+
+    OpenAI:n mukaan rahaa kului ilmaisesta summasta 0,00007$/5$
+    ```
+- Backend toteutus pythonilla (llamaindex, fastapi) ja frontend javascriptillä(react)?
+- Seuraavaksi kokeilen testidatalla käyttöä
+
+Linkkejä:
+- Natural text to speech AI https://beta.elevenlabs.io/
+- Raporttiin: Tekoälyt voivat korvata neljänneksen töistä https://www.hs.fi/talous/art-2000009485920.html
