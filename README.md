@@ -154,8 +154,24 @@ Mietteitä:
     OpenAI:n mukaan rahaa kului ilmaisesta summasta 0,00007$/5$
     ```
 - Backend toteutus pythonilla (llamaindex, fastapi) ja frontend javascriptillä(react)?
-- Seuraavaksi kokeilen testidatalla käyttöä
+- Seuraavaksi kokeilen testidatalla käyttöä ja LlamaIndexiä
 
 Linkkejä:
 - Natural text to speech AI https://beta.elevenlabs.io/
 - Raporttiin: Tekoälyt voivat korvata neljänneksen töistä https://www.hs.fi/talous/art-2000009485920.html
+
+## 13.4
+Mietteitä:
+- Kokeilen LlamaIndexiä ensimmäistä kertaa
+    - Mietin että haluaisin kokeilla sitä alpaca-mallin kanssa lokaalisti, mutta toteutus ei vaikuta helpolta
+    - Löysin langchainin integraatiot, joilla asia voisi onnistua. Kokeilen alpacan asennusta ja käyttöä ensin
+- Iltaan tuli pari muuttujaa, jatkan huomenna ja tutkin GPT4Allin, Alpacan potentiaalit ja miten yhdistetään Langchainiin ja siten LlamaIndexiin
+
+Linkkejä:
+- löysin jälkeenpäin ohjeita https://medium.com/artificialis/crafting-an-engaging-chatbot-harnessing-the-power-of-alpaca-and-langchain-66a51cc9d6de
+- ChatGPT ja open source vaihtoehdot - lyhyt historia https://betterprogramming.pub/navigating-the-world-of-chatgpt-and-its-open-source-adversaries-21f0a6b7da94
+- Lista edellä mainituista https://medium.com/geekculture/list-of-open-sourced-fine-tuned-large-language-models-llm-8d95a2e0dc76
+- Llama (myös alpaca) asennus https://www.reddit.com/r/LocalLLaMA/comments/11o6o3f/how_to_install_llama_8bit_and_4bit/
+- GPT4All repo https://github.com/nomic-ai/gpt4all
+- Llama.cpp repo https://github.com/ggerganov/llama.cpp
+- GPT4All integraatio langchainiin (löytyy myös llama) https://python.langchain.com/en/latest/modules/models/llms/integrations/gpt4all.html
