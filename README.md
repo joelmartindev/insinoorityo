@@ -165,7 +165,7 @@ Mietteitä:
 - Kokeilen LlamaIndexiä ensimmäistä kertaa
     - Mietin että haluaisin kokeilla sitä alpaca-mallin kanssa lokaalisti, mutta toteutus ei vaikuta helpolta
     - Löysin langchainin integraatiot, joilla asia voisi onnistua. Kokeilen alpacan asennusta ja käyttöä ensin
-- Iltaan tuli pari muuttujaa, jatkan huomenna ja tutkin GPT4Allin, Alpacan potentiaalit ja miten yhdistetään Langchainiin ja siten LlamaIndexiin
+- Iltaan tuli pari muuttujaa, jatkan myöhemmin ja tutkin GPT4Allin sekä Alpacan potentiaalit ja miten yhdistetään Langchainiin ja siten LlamaIndexiin
 
 Linkkejä:
 - löysin jälkeenpäin ohjeita https://medium.com/artificialis/crafting-an-engaging-chatbot-harnessing-the-power-of-alpaca-and-langchain-66a51cc9d6de
@@ -175,3 +175,15 @@ Linkkejä:
 - GPT4All repo https://github.com/nomic-ai/gpt4all
 - Llama.cpp repo https://github.com/ggerganov/llama.cpp
 - GPT4All integraatio langchainiin (löytyy myös llama) https://python.langchain.com/en/latest/modules/models/llms/integrations/gpt4all.html
+
+## 16.4
+Mietteitä:
+- Lataan GPT4All-mallia, joka on 4GB tiedosto ja jolle löytyy myös python käyttöliittymä
+    - Testasin tätä mallia ja nopeus on tyydyttävä omalla vanhalla työpöytäkoneella. Vastauksissa malli vain ilmoitti olevansa Jane Doe ja myöhemmin vasta sanoi olevansa kielimalli
+    - Hiottavaa siis on ja on järkevää valita käyttöön malli jolla on hyvä nopeus sekä hyvät vastaukset
+    - Kokeilin pythonilla toimivaa versiota joka oli hankala saada käyntiin ja se on tuskallisen hidas, n. 1-2 merkkiä minuutissa
+- Hiottavaa löytyy myös omasta työskentelystä sillä lataamisen ja testaamisen välillä meni muutama tunti johtuen siitä että tutkiessa eri malleja ajauduin hyvin sivuraiteille
+- Seuraavaksi voisin testata toista mallia jos olisi helpompaa tai selvittää nopeasti vielä onko tässä mallissa enää mahdollisuuksia
+
+Linkkejä:
+- Toinen mallien vertailu, gpt4xalpaca on paras https://www.reddit.com/r/LocalLLaMA/comments/12ezcly/comparing_models_gpt4xalpaca_vicuna_and_oasst/
