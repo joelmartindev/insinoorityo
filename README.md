@@ -187,3 +187,17 @@ Mietteitä:
 
 Linkkejä:
 - Toinen mallien vertailu, gpt4xalpaca on paras https://www.reddit.com/r/LocalLLaMA/comments/12ezcly/comparing_models_gpt4xalpaca_vicuna_and_oasst/
+
+## 17.4
+Mietteitä:
+- jos tulee tollasii 'vain linuxissa pystyy ajaa' ongelmia nii voisi dockerii kokeilla
+vicuna testiin
+- Tutkin vielä GPT4All-mallia
+    - Mallin tekijöiden gpt4all python client viritelmä ymmärtääkseni ei toimi vielä Windowsilla joten käytin jo pyllamacpp:tä
+    - Pyllamacpp:n ohjeet sanoivat että voi olla kannattavaa buildata omalla koneella jotta target cpu on myös oma
+    - Tein tuon ja ei auttanut ollenkaan, mutta sen sijaan käytettävien ydinten muutos kahdeksasta yhteen sai tekstistä melkein reaaliaikaisen ja muutos neljään sai tekstiä tulemaan nopeammin kuin itse ehdin puhua
+    - Yritän saada sen toimimaan chat muodossa, sillä nyt se vain päättelee tekstin jatkoa
+- Haluaisin seuraavaksi kokeilla yhdistää tämän LlamaIndexiin ja katsoa mitä tapahtuu ja helpottaisiko se chat-muotoon saattamista
+
+Linkkejä:
+- 'Using LlamaIndex as a generic callable tool with a Langchain agent, Using LlamaIndex as a memory module 'https://gpt-index.readthedocs.io/en/latest/how_to/integrations/using_with_langchain.html
