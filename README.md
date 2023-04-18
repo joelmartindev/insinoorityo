@@ -190,8 +190,6 @@ Linkkejä:
 
 ## 17.4
 Mietteitä:
-- jos tulee tollasii 'vain linuxissa pystyy ajaa' ongelmia nii voisi dockerii kokeilla
-vicuna testiin
 - Tutkin vielä GPT4All-mallia
     - Mallin tekijöiden gpt4all python client viritelmä ymmärtääkseni ei toimi vielä Windowsilla joten käytin jo pyllamacpp:tä
     - Pyllamacpp:n ohjeet sanoivat että voi olla kannattavaa buildata omalla koneella jotta target cpu on myös oma
@@ -200,4 +198,25 @@ vicuna testiin
 - Haluaisin seuraavaksi kokeilla yhdistää tämän LlamaIndexiin ja katsoa mitä tapahtuu ja helpottaisiko se chat-muotoon saattamista
 
 Linkkejä:
-- 'Using LlamaIndex as a generic callable tool with a Langchain agent, Using LlamaIndex as a memory module 'https://gpt-index.readthedocs.io/en/latest/how_to/integrations/using_with_langchain.html
+- 'Using LlamaIndex as a generic callable tool with a Langchain agent, Using LlamaIndex as a memory module'
+https://gpt-index.readthedocs.io/en/latest/how_to/integrations/using_with_langchain.html
+
+## 18.4
+Mietteitä:
+- Jatkan LlamaIndexin yhdistämisellä
+    - Sain LlamaIndexin ottamaan sisään haluamani lyhyen tekstikontekstin ja kysymyksen, sekä mallin vastaamaan Langchainin GPT4All-integraatiota hyödyntämällä mistä tekstikontekstissa oli oikein kyse
+    - Prosessi kesti nykykoodilla yli 100 sekuntia, mutta luulen että suuri osa siitä johtuu kontekstin indeksin rakennuksesta, jonka voi myös hoitaa kerralla ja ladata ohjelmaan jälkeenpäin
+    - Kokeilin nyt kokoamieni jsonien käyttöä, mutta ilmeisesti ne ovat liian pitkiä esim GPTKeywordTableIndexille senkin jälkeen kun ohjelma lyhentää ne. Jos käyttäisin VectorIndexiä saattaisin saada ne vielä pienemmiksi, mutta oletuksena LlamaIndex tarvitsee siihen OpenAI:n embedding APIa. Löytyy tuki custom embedding modeleille, mutta en ole varma onko mitään vaihtoehtoa
+    - Ilmeisesti custom local vaihtoehtoja on, lisään linkin
+- Seuraavaksi tutkin embedding malleja ja jos homma ei etene, pitää vaihtaa sovelluksen aihetta paljon kevyemmäksi
+
+Palaveriin:
+- Olen saanut kokeiltua tähän asti GPT3.5 Turbo -mallia, mutta ajattelin että tässä menisi liikaa krediittejä pitkillä prompteilla, joten aloin tutkimaan omalla koneella pyöriviä kielimalleja
+    - Llama-pohjainen GPT4All pyörii melko hyvin omalla koneella, mutta ongalmana on kontekstikoko
+- Tämä ensimmäinen idea kaupan tuotteista kertovasta chatbotista on uhassa kariutua kontekstikoon takia, mutta voin vielä testata custom embeddausta joka voisi lyhentää sitä
+    - Vaikuttaa epätodennäköiseltä että auttaa mutta ei pitäisi mennä kauaa kokeilussa
+- Haluaisin siis välttää OpenAI:n APIen käyttöä, sillä luulen että firmat haluaisivat jonkin oman ratkaisun mieluummin ja siksi lokaali kielimalli houkuttelee
+
+Linkkejä:
+- Embedding malleista https://medium.com/@nils_reimers/openai-gpt-3-text-embeddings-really-a-new-state-of-the-art-in-dense-text-embeddings-6571fe3ec9d9
+- sbert https://www.sbert.net/examples/applications/computing-embeddings/README.html
