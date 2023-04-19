@@ -211,8 +211,8 @@ Mietteitä:
 - Seuraavaksi tutkin embedding malleja ja jos homma ei etene, pitää vaihtaa sovelluksen aihetta paljon kevyemmäksi
 
 Palaveriin:
-- Olen saanut kokeiltua tähän asti GPT3.5 Turbo -mallia, mutta ajattelin että tässä menisi liikaa krediittejä pitkillä prompteilla, joten aloin tutkimaan omalla koneella pyöriviä kielimalleja
-    - Llama-pohjainen GPT4All pyörii melko hyvin omalla koneella, mutta ongalmana on kontekstikoko
+- Olen saanut kokeiltua tähän asti GPT-3.5-Turbo-mallia, mutta ajattelin että tässä menisi liikaa krediittejä pitkillä prompteilla, joten aloin tutkimaan omalla koneella pyöriviä kielimalleja
+    - Llama-pohjainen GPT4All pyörii melko hyvin omalla koneella, mutta ongelmana on kontekstikoko
 - Tämä ensimmäinen idea kaupan tuotteista kertovasta chatbotista on uhassa kariutua kontekstikoon takia, mutta voin vielä testata custom embeddausta joka voisi lyhentää sitä
     - Vaikuttaa epätodennäköiseltä että auttaa mutta ei pitäisi mennä kauaa kokeilussa
 - Haluaisin siis välttää OpenAI:n APIen käyttöä, sillä luulen että firmat haluaisivat jonkin oman ratkaisun mieluummin ja siksi lokaali kielimalli houkuttelee
@@ -220,3 +220,16 @@ Palaveriin:
 Linkkejä:
 - Embedding malleista https://medium.com/@nils_reimers/openai-gpt-3-text-embeddings-really-a-new-state-of-the-art-in-dense-text-embeddings-6571fe3ec9d9
 - sbert https://www.sbert.net/examples/applications/computing-embeddings/README.html
+
+## 19.4 Toinen palaveri
+Huomioita:
+- OMAsta libguides, kannattaa tutustua ACM, IEEE Explore ja ScienceDirect. Kannattaa tutkailla uusimmasta päästä
+- Kiinnostaako otsikko? Lue tiivistelmä. Kiinnostaako tiivistelmä? Ala lukea
+    - ScienceDirectissa cite-napilla export citation, abstract pois, sulkuihin perään milloin luettu
+- IMRAD-kirjoitusmenetelmä
+- Täksi illaksi kasaan suunnitelman, jossa hahmotelma sisällysluettelosta ja tutkimuskysymys alakysymyksineen
+
+Linkkejä:
+- Ideoita ecommerce käyttöön https://gptblogs.com/maximizing-ecommerce-success-with-chat-gpt
+- IMRAD https://en.wikipedia.org/wiki/IMRAD
+- Tutkimusongelman ja kysymyksen selitystä https://www.mv.helsinki.fi/home/jmykkane/tutkielma/Tutkimusongelma.html
