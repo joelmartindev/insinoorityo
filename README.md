@@ -1,7 +1,7 @@
 # Insinöörityö
 Opinnäytetyöni päiväkirja ja materiaali
 
-Aihe: Kielimallien kuten GPT-3 hyödyntäminen nollakäyttöliittymäsovelluksessa (lopullinen sovellus auki)
+Aihe: Lokaalin kielimallin hyödyntäminen nollakäyttöliittymäsovelluksessa (lopullinen sovellus auki)
 
 ## 21.3 ensimmäinen palaveri
 
@@ -224,7 +224,7 @@ Linkkejä:
 ## 19.4 Toinen palaveri
 Huomioita:
 - OMAsta libguides, kannattaa tutustua ACM, IEEE Explore ja ScienceDirect. Kannattaa tutkailla uusimmasta päästä
-- Kiinnostaako otsikko? Lue tiivistelmä. Kiinnostaako tiivistelmä? Ala lukea
+    - Kiinnostaako otsikko? Lue tiivistelmä. Kiinnostaako tiivistelmä? Ala lukea
     - ScienceDirectissa cite-napilla export citation, abstract pois, sulkuihin perään milloin luettu
 - IMRAD-kirjoitusmenetelmä
 - Täksi illaksi kasaan suunnitelman, jossa hahmotelma sisällysluettelosta ja tutkimuskysymys alakysymyksineen
@@ -233,3 +233,11 @@ Linkkejä:
 - Ideoita ecommerce käyttöön https://gptblogs.com/maximizing-ecommerce-success-with-chat-gpt
 - IMRAD https://en.wikipedia.org/wiki/IMRAD
 - Tutkimusongelman ja kysymyksen selitystä https://www.mv.helsinki.fi/home/jmykkane/tutkielma/Tutkimusongelma.html
+
+## 24.4 Tauon paikka
+Mietteitä:
+- Pidän taukoa aktiivisemmasta tekemisestä, sillä käsitellyt asiat kehittyvät kovaa tahtia eli kannattaa hieman odottaa
+- Pääsyynä myös se että alan tekemään Solita Dev Academyn hakutehtävää, jonka deadline on 31.5
+
+Linkkejä:
+- Jälleen uusi ei-llama-pohjainen malli ja vielä isommalla kontekstikoolla https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models
