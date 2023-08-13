@@ -4,9 +4,7 @@ Opinnäytetyöni päiväkirja ja materiaali
 
 Aihe: Lokaalin kielimallin hyödyntäminen nollakäyttöliittymäsovelluksessa (lopullinen sovellus auki)
 
-Tällä hetkellä ideana on luoda tekoälysovellus, jonka kanssa voi keskustella tekstiä sisältävän tiedoston sisällöstä.
-Hahmottelen sellaista sovellusta, jonka yritys voisi ottaa sisäiseen käyttöönsä, ettei sensitiivistä dataa tarvitsisi lähettää ulkopuolisille.
-Keväällä luodut osat päiväkirjasta eivät täysin pohdi vielä tätä.
+Tällä hetkellä ideana on luoda tekoälysovellus, jonka kanssa voi keskustella tekstiä sisältävän tiedoston sisällöstä. Hahmottelen sellaista sovellusta, jonka yritys voisi ottaa sisäiseen käyttöönsä, ettei sensitiivistä dataa tarvitsisi lähettää ulkopuolisille. Keväällä luodut osat päiväkirjasta eivät täysin pohdi vielä tätä.
 
 ## 21.3 ensimmäinen palaveri
 
