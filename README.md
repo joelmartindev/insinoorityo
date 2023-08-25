@@ -289,3 +289,22 @@ Mietteitä:
 Linkkejä:
 
 - Jälleen uusi ei-llama-pohjainen malli ja vielä isommalla kontekstikoolla https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models
+
+## 25.8 Homma jatkuu
+
+Mietteitä:
+
+- Ideana nyt jatkaa projektia tekemällä ohjelma, jolla voi keskustella siihen ladatun dokumentin sisällöstä
+  - Kaipaan portfolioon uutta Java-projektia, joten ainakin osa projektista tehdään Javalla jos mahdollista
+  - Sovellus tarvitsee serverin kielimallille ja yhteyksille, sekä käyttöliittymän
+    - Pitää miettiä haluanko tehdä käyttöliittymänkin Javalla
+  - Alan tutkimaan onko Javalla mahdollista pyörittää kielimalleja
+- Aion myös tutkia kuinka hyvin kielimallit pyörivät läppärilläni, koska sitten en olisi jumissa isolla koneella
+  - Tätä voi myös miettiä käyttäjien kautta, jos sovellus pyörisikin kokonaan käyttäjän koneella eikä tarvitsisi erillistä serveriä
+- LlaMasta tuli uusi versio LlaMA 2, jonka lisenssi mahdollistaa kaupallisen käytön
+
+Linkkejä:
+
+- Llama.cpp web server https://github.com/ggerganov/llama.cpp/tree/master/examples/server
+- LlaMa Java Wrapper https://github.com/sebicom/llamacpp4j
+- Langchain Javalla https://github.com/HamaWhiteGG/langchain-java
