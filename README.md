@@ -308,3 +308,19 @@ Linkkejä:
 - Llama.cpp web server https://github.com/ggerganov/llama.cpp/tree/master/examples/server
 - LlaMa Java Wrapper https://github.com/sebicom/llamacpp4j
 - Langchain Javalla https://github.com/HamaWhiteGG/langchain-java
+
+## 4.9
+
+Mietteitä:
+
+- Kokeilen vanhan kielimallin ajamista läppärillä, mutta ohjelma ei toimi. Alla pyörivät työkalut taitavat olla uudistuneet rikkovilla muutoksilla.
+  - Etsin tietoa siitä että mikä on paras uusi LlaMa 2 -malli jota voisin kokeilla tähän tarkoitukseen
+  - Mallin pitäisi olla tekstin käsittelyyn sopiva ja Chat-tyylisenä (instruct?) se olisi luultavasti käyttäjäystävällisin
+  - Vaihdoin aikaisemmin testaamani pyllamacpp --> llama-cpp-python, jolloin uusien gguf-mallien pitäisi toimia
+  - Testaan seuraavaksi toimiiko llama-cpp-python kun asentaa Visual Studion ja sen C++ core -osuuden ja CMake-lisäominaisuuden
+- On olemassa pelkästään Javalla tehty inference engine Jlama, mutta llama.cpp on paljon vakiintuneempi ja pidemmällä kehityksessä mikä mahdollistaa esimerkiksi pienempien mallien pyörittämisen
+  - Lienee siis järkevää sen sijaan käyttää Javalla wrapattua llama.cpp:tä, joita löytyy useampi
+
+Linkkejä:
+
+- Ehkä kehitetyin Java wrapper https://github.com/kherud/java-llama.cpp
