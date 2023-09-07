@@ -324,3 +324,25 @@ Mietteitä:
 Linkkejä:
 
 - Ehkä kehitetyin Java wrapper https://github.com/kherud/java-llama.cpp
+
+## 7.9
+
+Mietteitä:
+
+- Llama-cpp-python testauksen jatkoa
+  - Pelkkä `pip install llama-cpp-python` aiheutti ongelmia, koska C compileria ei millään löytynyt asennuksesta huolimatta, joten jouduin asentamaan valmiin wheelin komennolla `pip install https://github.com/abetlen/llama-cpp-python/releases/download/v0.1.83/llama_cpp_python-0.1.83-cp39-cp39-win_amd64.whl`
+  - Ohjelma lähti tällä kertaa käyntiin, mutta antaa esimerkkikysymykseen väärän vastauksen
+  - Kysymystä muuttamalla malli ei oudosti anna minkäänlaista outputtia
+  - Isommalla koneella testattuna 7B malli vastaa hyvin
+- Quantized versio Llama 2 7B-mallista saattaa olla suurin malli, jota minulla on resursseja pyörittää ja toisella tietokoneella on sama juttu koska muistin määrä on sielläkin 16 gigaa
+  - Testaan siis vielä 13B mallia jos se pyörisi
+  - Ohjelma pyörii loppuun saakka, mutta en saa lopputuloksesta kokonaista vastausta
+  - Ymmärtääkseni tulisi ilmoitus jos muisti loppuu kesken, joten luulen että 13B mahtuu, mutta en ymmärrä miksei toimi kunnolla
+- Kokeilin vaihtaa promptin muotoa ja vastauksista alkoi tulla järkevämpiä
+- Jatkan promptien miettimistä seuraavaksi
+
+Linkkejä:
+
+- Testattu 7B Llama 2 https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF
+- Testattu 13B LlaMa 2 https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF
+- Prompt ohjeita https://replicate.com/blog/how-to-prompt-llama
