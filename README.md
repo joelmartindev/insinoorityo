@@ -6,6 +6,8 @@ Aihe: Lokaalin kielimallin hyödyntäminen nollakäyttöliittymäsovelluksessa (
 
 Tällä hetkellä ideana on luoda tekoälysovellus, jonka kanssa voi keskustella tekstiä sisältävän tiedoston sisällöstä. Hahmottelen sellaista sovellusta, jonka yritys voisi ottaa sisäiseen käyttöönsä, ettei sensitiivistä dataa tarvitsisi lähettää ulkopuolisille. Keväällä luodut osat päiväkirjasta eivät täysin pohdi vielä tätä.
 
+Kansiosta nimeltä Metropolia löytyy koulun tekoälyprojektiin hakua varten tehty pieni projekti.
+
 ## 21.3 ensimmäinen palaveri
 
 Huomioita:
@@ -346,3 +348,24 @@ Linkkejä:
 - Testattu 7B Llama 2 https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF
 - Testattu 13B LlaMa 2 https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF
 - Prompt ohjeita https://replicate.com/blog/how-to-prompt-llama
+
+## 11.9 Haku Metropolian projektiin
+
+Mietteitä:
+
+- Tänään tuli vastaan koulun ilmoitus, jossa opiskelijoita haetaan töihin projektiin, joka liippaa todella läheltä tätä työstämääni projektia
+
+  - Päätän siis käyttää aikaa Metropolian projektiin hakemiseen tekemällä vaaditun koodaustehtävän
+
+  ```
+  The strategy and development services of Metropolia UAS is looking to hire two students who would join a Metropolia-wide AI development project. The goal of the project is to use LLMs (large language models) to empower our staff and students. The project is heavily R&D driven, and it will result in new discoveries and publications. Application deadline: 24.9.
+
+  You should submit a small coding assignment in which your task is to create a small app using Flask (https://flask.palletsprojects.com/en/2.3.x/quickstart/). The app should have a text field and a button. When the button is pressed, the text written in the text field will be sent to the backend, which will translate it from English to Finnish, for example, using this model: https://huggingface.co/Helsinki-NLP/opus-mt-en-fi . Click “Use in Transformers” to see how to load the model and refer to Pipeline documentation to use the model to translate text (https://huggingface.co/docs/transformers/main_classes/pipelines). NB. There is also a Pipeline for translation.
+  ```
+
+- Hakemiseen vaaditussa projektissa pyydetään siis tekemään Flask-API, joka pyörittää Huggingfacen Transformers-kirjastolla käännösmallia. Frontendistä ei mainita mitään, joten taidan vain tehdä pikaisesti React-sivun
+- Loin uuden Metropolia-kansion, johon lisään tehtävään liittyvää koodia
+- Aloitan kokeilemalla mallin ajamista koneellani, mitä varten asennan Transformers-kirjaston
+  - Sain mallin pyörimään ja tulostin käännöksiä parilla eri tavalla
+- Transformers tuntuu kätevältä, mutta tässä projektissa sitä olisi hankala käyttää, jos haluaa tehdä Javalla ja Spring Bootilla backendin
+- Huomenna jatkan luomalla APIn ja nettisivun
