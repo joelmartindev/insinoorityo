@@ -356,12 +356,8 @@ Mietteitä:
 - Tänään tuli vastaan koulun ilmoitus, jossa opiskelijoita haetaan töihin projektiin, joka liippaa todella läheltä tätä työstämääni projektia
 
   - Päätän siis käyttää aikaa Metropolian projektiin hakemiseen tekemällä vaaditun koodaustehtävän
-
-  ```
-  The strategy and development services of Metropolia UAS is looking to hire two students who would join a Metropolia-wide AI development project. The goal of the project is to use LLMs (large language models) to empower our staff and students. The project is heavily R&D driven, and it will result in new discoveries and publications. Application deadline: 24.9.
-
-  You should submit a small coding assignment in which your task is to create a small app using Flask (https://flask.palletsprojects.com/en/2.3.x/quickstart/). The app should have a text field and a button. When the button is pressed, the text written in the text field will be sent to the backend, which will translate it from English to Finnish, for example, using this model: https://huggingface.co/Helsinki-NLP/opus-mt-en-fi . Click “Use in Transformers” to see how to load the model and refer to Pipeline documentation to use the model to translate text (https://huggingface.co/docs/transformers/main_classes/pipelines). NB. There is also a Pipeline for translation.
-  ```
+  - " The strategy and development services of Metropolia UAS is looking to hire two students who would join a Metropolia-wide AI development project. The goal of the project is to use LLMs (large language models) to empower our staff and students. The project is heavily R&D driven, and it will result in new discoveries and publications. Application deadline: 24.9. "
+  - " You should submit a small coding assignment in which your task is to create a small app using Flask (https://flask.palletsprojects.com/en/2.3.x/quickstart/). The app should have a text field and a button. When the button is pressed, the text written in the text field will be sent to the backend, which will translate it from English to Finnish, for example, using this model: https://huggingface.co/Helsinki-NLP/opus-mt-en-fi . Click “Use in Transformers” to see how to load the model and refer to Pipeline documentation to use the model to translate text (https://huggingface.co/docs/transformers/main_classes/pipelines). NB. There is also a Pipeline for translation. "
 
 - Hakemiseen vaaditussa projektissa pyydetään siis tekemään Flask-API, joka pyörittää Huggingfacen Transformers-kirjastolla käännösmallia. Frontendistä ei mainita mitään, joten taidan vain tehdä pikaisesti React-sivun
 - Loin uuden Metropolia-kansion, johon lisään tehtävään liittyvää koodia
@@ -369,3 +365,20 @@ Mietteitä:
   - Sain mallin pyörimään ja tulostin käännöksiä parilla eri tavalla
 - Transformers tuntuu kätevältä, mutta tässä projektissa sitä olisi hankala käyttää, jos haluaa tehdä Javalla ja Spring Bootilla backendin
 - Huomenna jatkan luomalla APIn ja nettisivun
+
+## 12.9 Metropolia-tehtävä loppuun
+
+Mietteitä:
+
+- Lähden luomaan API:a, joka vastaanottaa tekstiä ja palauttaa käännettyä tekstiä
+  - Translate-route tehty ja suurin ongelma oli Pythonin syntaksin opettelu, että saisin JSON:in oikean muotoisena takaisin
+  - Testaan Postmanilla API:in postausta ja homma toimii, mutta ääkköset eivät näy oikein. Ilmeisesti data lähtee Unicodena, jolloin se pitää tulkita takaisin oikeaan muotoon. Katsotaan onko tämä ongelma vai hoituuko se automaattisesti, kun nettisivu saa datan.
+- Seuraavaksi tarvitsen nettisivun, jolta lähetän pyyntöjä
+  - Teen Vitellä React-luurankoprojektin ja muokkaan sen omaan käyttöön
+  - Sovellus ei ole, laaja joten luon koodin aikalailla vain App.jsx-tiedostoon
+  - Alustava versio valmis: tekstialue, nappi ja sivulle ilmestyvä käännös
+- Laajensin sovellusta vielä niin, että vanhat käännökset jäävät näkyviin ja tein pienet muotoilut
+- Serveri pitäisi vielä saada lähettämään valmis nettisivu
+  - Luon Vitellä koodista staattisen sivun
+  - Saan Flaskin toimimaan sivun kanssa pienen kamppailun jälkeen, sillä se ei osannut lähettää js-tiedostoja oikean muotoisina. Piti siis erikseen korjata MIME-tyyppi js-tiedostoille sekä selaimen välimuisti piti tyhjentää ennen kuin korjaus alkoi vaikuttaa.
+- Kaikki on nyt valmista ja voin hakea projektiin mukaan!

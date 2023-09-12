@@ -1,22 +1,40 @@
+# Fix to serve js files as js, not as text/plain.
+import mimetypes
+mimetypes.add_type('application/javascript', '.js')
+
+from flask import Flask, request, render_template
+from flask_cors import CORS
 from transformers import pipeline
 
+app = Flask( __name__, static_url_path='', static_folder='dist', template_folder='dist')
+CORS(app)
+
 pipe = pipeline("translation_en_to_fi", model="Helsinki-NLP/opus-mt-en-fi")
-print(pipe("This restaurant is awesome"))
 
-homma = pipe("Translation is fun")
-print(homma)
+@app.route("/")
+def index():
+    return render_template('index.html')
 
-def data():
-    while True:
-        # This could come from a dataset, a database, a queue or HTTP request
-        # in a server
-        # Caveat: because this is iterative, you cannot use `num_workers > 1` variable
-        # to use multiple threads to preprocess data. You can still have 1 thread that
-        # does the preprocessing while the main runs the big inference
-        yield "This is a test"
-        yield "This a test as well"
-        return
+@app.route('/translate', methods=['POST'])
+def translate_api():
+    max_length = 460
 
+    data = request.json
+    text = data['text']
+    print(text)
 
-for out in pipe(data()):
-    print(out)
+    if len(text) > max_length:
+        return { 'translation': 'The length of your text is ' + str(len(text)) + ', the max length for this model is 460'}
+    
+    result = pipe(text)
+    translation = result[0]['translation_text']
+    print(translation)
+    
+    response = {
+        'translation': translation
+    }
+    
+    return response
+
+if __name__ == "__main__":
+    app.run(debug = True)
