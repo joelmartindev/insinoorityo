@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  width: 10%;
+}
+
+h1 {
+  margin: 25px 0px;
+}
+
+.appContainer {
+  margin: auto;
+  max-width: 1000px;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  box-shadow: 10px 5px 20px #A020F0, -1px -1px 5px rgb(201, 201, 201);
+  border-radius: 20px;
+} 
+
+.messages { 
+    border-style: solid;
+    border-width: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    border-radius: 15px;
+    height: 300px;
+    max-height: 100%;
+    min-width: 900px;
+    overflow: auto;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.question {
+  width: 70%;
+  height: 30px;
+  padding: 0px 10px;
+  line-height: 3;
+}
+
+input {
+  margin-top: 50px;
+}
+
+.loading {
+  margin: 10px;
+}

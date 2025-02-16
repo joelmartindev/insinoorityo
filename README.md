@@ -1,14 +1,16 @@
-# Insinöörityö
+# Insinöörityö: Opinnäytetyöni julkinen päiväkirja ja sovellus
 
-Opinnäytetyöni päiväkirja ja materiaali
+Aihe suurinpiirtein: Lokaalit kielimallit ja RAG: PDF-chatbotin luonti (Aikaisemmin Lokaalin kielimallin hyödyntäminen nollakäyttöliittymäsovelluksessa)
 
-Aihe: Lokaalin kielimallin hyödyntäminen nollakäyttöliittymäsovelluksessa (lopullinen sovellus auki)
-
-Tällä hetkellä ideana on luoda tekoälysovellus, jonka kanssa voi keskustella tekstiä sisältävän tiedoston sisällöstä. Hahmottelen sellaista sovellusta, jonka yritys voisi ottaa sisäiseen käyttöönsä, ettei sensitiivistä dataa tarvitsisi lähettää ulkopuolisille. Keväällä luodut osat päiväkirjasta eivät täysin pohdi vielä tätä.
+Ideana on luoda tekoälysovellus, jonka kanssa voi keskustella tekstiä sisältävän tiedoston sisällöstä. Hahmottelen sellaista sovellusta, jonka yritys voisi ottaa sisäiseen käyttöönsä, ettei sensitiivistä dataa tarvitsisi lähettää ulkopuolisille. Keväällä 2023 luodut osat päiväkirjasta eivät täysin pohdi vielä tätä. Keskityin sen jälkeen toiseen projektiin ja töihin, mutta keväällä 2025 pääsin toteutuksessa maaliin, kun kokeilin uusia työkaluja.
 
 Kansiosta nimeltä Metropolia löytyy koulun tekoälyprojektiin hakua varten tehty pieni projekti.
 
-## 21.3 ensimmäinen palaveri
+Projektin saa käyntiin rakentamalla Vitella front-kansiossa staattisen sivun komennolla `npm install` ja `npm run build`.
+
+Sitten projektin juuressa ajetaan komento `pip install -r requirements.txt` ja `fastapi dev main.py`, jolloin serveri käynnistyy ja selamisessa voi navigoida sen osoittamalle sivulle `localhost:8000`.
+
+## 21.3.2023 ensimmäinen palaveri
 
 Huomioita:
 
@@ -29,7 +31,7 @@ Linkkejä:
 - API guide and what you can do with it https://www.makeuseof.com/openai-api-guide-what-can-you-do/
 - Mermaid https://mermaid.js.org/config/Tutorials.html
 
-## 23.3:
+## 23.3.:
 
 Mietteitä:
 
@@ -56,7 +58,7 @@ Linkkejä:
 - Pikaohjeet document Q&A chatbotin tekoon https://bootcamp.uxdesign.cc/a-step-by-step-guide-to-building-a-chatbot-based-on-your-own-documents-with-gpt-2d550534eea5
 - LlamaIndex ja pidemmät ohjeet https://gpt-index.readthedocs.io/en/latest/guides/building_a_chatbot.html
 
-## 24.3:
+## 24.3.:
 
 Mietteitä:
 
@@ -78,7 +80,7 @@ Linkkejä:
 - OpenAI.py LLM koodi https://github.com/hwchase17/langchain/blob/master/langchain/llms/openai.py
   - Tiedostosta näkyy että OpenAI-luokalla pystyy käyttämään davinci yms malleja ja OpenAIChat-luokalla GPT-malleja
 
-## 26.3
+## 26.3.
 
 Mietteitä:
 
@@ -89,7 +91,7 @@ Linkkejä:
 - Use cases guide https://gpt-index.readthedocs.io/en/latest/guides/use_cases.html
 - Guardrails ohjaa outputin muotoa https://github.com/ShreyaR/guardrails
 
-## 27.3
+## 27.3.
 
 Mietteitä:
 
@@ -101,7 +103,7 @@ Linkkejä:
 - Learn prompting https://learnprompting.org/docs/basics/intro
 - GPT-4 chat ilmaiseksi testaamiseen https://huggingface.co/spaces/ysharma/ChatGPT4
 
-## 28.3
+## 28.3.
 
 Mietteitä:
 
@@ -114,7 +116,7 @@ Linkkejä:
 - Cohere https://dashboard.cohere.ai/
 - Open Source speech-to-text lista https://fosspost.org/open-source-speech-recognition/
 
-## 31.3
+## 31.3.
 
 Mietteitä:
 
@@ -126,7 +128,7 @@ Linkkejä:
 - Opettajan linkki, puheohjaus ja chatbot guide https://levelup.gitconnected.com/i-created-a-voice-chatbot-powered-by-chatgpt-api-here-is-how-6302d555b949
 - LLaMa/Alpaca erojen testausta https://www.reddit.com/r/LocalLLaMA/comments/123ktm7/comparing_llama_and_alpaca_models/
 
-## 1.4
+## 1.4.
 
 Mietteitä:
 
@@ -146,7 +148,7 @@ Linkkejä:
 - Italia kielsi ChatGPT:n nojaten yksityisyyden suojaan https://www.iltalehti.fi/ulkomaat/a/dffe5381-9606-42fe-b680-1917baa3e785
 - Pythonissa puhe tekstiksi https://towardsdatascience.com/easy-speech-to-text-with-python-3df0d973b426
 
-## 11.4
+## 11.4.
 
 Mietteitä:
 
@@ -157,7 +159,7 @@ Linkkejä:
 
 - Mikko Hyppönen - ensimmäinen gpt virus löydetty https://www.helpnetsecurity.com/2023/04/03/machine-learning-malware/
 
-## 12.4
+## 12.4.
 
 Mietteitä:
 
@@ -191,7 +193,7 @@ Linkkejä:
 - Natural text to speech AI https://beta.elevenlabs.io/
 - Raporttiin: Tekoälyt voivat korvata neljänneksen töistä https://www.hs.fi/talous/art-2000009485920.html
 
-## 13.4
+## 13.4.
 
 Mietteitä:
 
@@ -210,7 +212,7 @@ Linkkejä:
 - Llama.cpp repo https://github.com/ggerganov/llama.cpp
 - GPT4All integraatio langchainiin (löytyy myös llama) https://python.langchain.com/en/latest/modules/models/llms/integrations/gpt4all.html
 
-## 16.4
+## 16.4.
 
 Mietteitä:
 
@@ -225,7 +227,7 @@ Linkkejä:
 
 - Toinen mallien vertailu, gpt4xalpaca on paras https://www.reddit.com/r/LocalLLaMA/comments/12ezcly/comparing_models_gpt4xalpaca_vicuna_and_oasst/
 
-## 17.4
+## 17.4.
 
 Mietteitä:
 
@@ -241,7 +243,7 @@ Linkkejä:
 - 'Using LlamaIndex as a generic callable tool with a Langchain agent, Using LlamaIndex as a memory module'
   https://gpt-index.readthedocs.io/en/latest/how_to/integrations/using_with_langchain.html
 
-## 18.4
+## 18.4.
 
 Mietteitä:
 
@@ -265,7 +267,7 @@ Linkkejä:
 - Embedding malleista https://medium.com/@nils_reimers/openai-gpt-3-text-embeddings-really-a-new-state-of-the-art-in-dense-text-embeddings-6571fe3ec9d9
 - sbert https://www.sbert.net/examples/applications/computing-embeddings/README.html
 
-## 19.4 Toinen palaveri
+## 19.4. Toinen palaveri
 
 Huomioita:
 
@@ -281,7 +283,7 @@ Linkkejä:
 - IMRAD https://en.wikipedia.org/wiki/IMRAD
 - Tutkimusongelman ja kysymyksen selitystä https://www.mv.helsinki.fi/home/jmykkane/tutkielma/Tutkimusongelma.html
 
-## 24.4 Tauon paikka
+## 24.4. Tauon paikka
 
 Mietteitä:
 
@@ -382,3 +384,32 @@ Mietteitä:
   - Luon Vitellä koodista staattisen sivun
   - Saan Flaskin toimimaan sivun kanssa pienen kamppailun jälkeen, sillä se ei osannut lähettää js-tiedostoja oikean muotoisina. Piti siis erikseen korjata MIME-tyyppi js-tiedostoille sekä selaimen välimuisti piti tyhjentää ennen kuin korjaus alkoi vaikuttaa.
 - Kaikki on nyt valmista ja voin hakea projektiin mukaan!
+
+## 16.9.2023
+
+Mietteitä:
+
+- Kokeilen parannella vastauksia prompteilla
+  - Eri mallit vastaavat paremmin prompteihin, joilla niitä on koulutettu
+  - Lisäämällä lyhyen alun promptiin, malli antoi paljon paremman vastauksen eikä esimerkiksi vain lisännyt robottiemojia ja lopettanut
+- Tässä vaiheessa tuntuu että olen niin jumissa toteutuksen kanssa ja keskityn niin kovaa työnhakuun että koko homma jäi aikanaan tähän
+
+## Syksy 2024 eteenpäin -->
+
+- Kesätöiden loputtua palasin aiheeseen ajoittain, mutta lähinnä sain vain tutkittua lisää ja kerättyä ideoita muistiinpanoihini
+- Kielimallit ja niitä ympäröivät työkalut ja ohjeet ovat kuitenkin hurjasti kehittyneet tänä aikana, mikä lisää intoani jatkaa
+
+## 3.2.2025 - 6.2.2025
+
+- Päätän yrittää nyt siirtyä pois llama.cpp-pohjaisesta ratkaisusta, sillä se aiheutti minulle paljon ongelmia ja halusin testata voisiko toinen tapa olla helpompi
+- Kokeilen käyttää Ollamaa kielimallin pyörittämiseen
+  - Ollama luotiin kesällä 2023, kun olin jo lopettanut aktiivisen kehityksen, enkä kuullut siitä kuin vasta syksyllä 2024
+- Noin kolmen päivän tutkimisen ja säätämisen jälkeen saan valmiiksi Proof of Concept -sovelluksen, joka ottaa ennaltamääritetyn PDF-tiedoston ja antaa käyttäjän kysyä siitä kysymyksen
+
+## 7.2.2025 - 12.2.2025
+
+- Hion sovellusta, refaktoroin, mahdollistan monen kysymyksen kysymisen, luon serverin FastAPIlla ja käyttöliittymän Reactilla sekä mahdollistan PDF-tiedoston vaihtamisen nettisivun kautta
+
+## 13.2.2025
+
+- Uuden ohjaajan kanssa pidetään palaveri, jossa demoan sovellusta ja saan hyväksynnän jatkaa samaa rataa ja aloittaa opinnäytetyön raporttiosuus!
